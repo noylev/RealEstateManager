@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="446.0">Villa</node>
+    <node x="90.99999999999997" y="289.0">LandHouse</node>
+    <node x="531.0" y="446.0">StandardApartment</node>
+    <node x="244.87499999999997" y="0.0">Property</node>
+    <node x="505.0" y="564.0">junit</node>
+    <node x="438.5" y="278.0">Apartment</node>
+    <node x="0.0" y="564.0">RealEstateManager</node>
+    <node x="354.0" y="446.0">GardenApartment</node>
+    <node x="176.99999999999997" y="446.0">Cottage</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="GardenApartment" target="Apartment">
+      <point x="-2.8421709430404007E-14" y="-36.5" />
+      <point x="432.49999999999994" y="421.0" />
+      <point x="479.75" y="421.0" />
+      <point x="-41.25" y="59.0" />
+    </edge>
+    <edge source="LandHouse" target="Property">
+      <point x="0.0" y="-48.0" />
+      <point x="166.99999999999997" y="253.0" />
+      <point x="293.625" y="253.0" />
+      <point x="-48.75" y="114.0" />
+    </edge>
+    <edge source="Cottage" target="LandHouse">
+      <point x="0.0" y="-36.5" />
+      <point x="255.49999999999997" y="421.0" />
+      <point x="204.99999999999997" y="421.0" />
+      <point x="38.0" y="48.0" />
+    </edge>
+    <edge source="StandardApartment" target="Apartment">
+      <point x="0.0" y="-36.5" />
+      <point x="609.5" y="421.0" />
+      <point x="562.25" y="421.0" />
+      <point x="41.25" y="59.0" />
+    </edge>
+    <edge source="Apartment" target="Property">
+      <point x="0.0" y="-59.0" />
+      <point x="521.0" y="253.0" />
+      <point x="391.125" y="253.0" />
+      <point x="48.75" y="114.0" />
+    </edge>
+    <edge source="Villa" target="LandHouse">
+      <point x="0.0" y="-36.5" />
+      <point x="78.5" y="421.0" />
+      <point x="128.99999999999997" y="421.0" />
+      <point x="-38.0" y="48.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6000000000000001" x="356.9999999999999" y="403.83333333333326" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
